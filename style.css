@@ -8,7 +8,75 @@
 body{
     background: #f4f4f4;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
 }
+ul li a span.icon{
+    /* background-color: red; */
+    width: 60px;
+    height: 30px;
+    position: relative;
+}
+
+ul li a{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+ul{
+    position: relative;
+    top: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav ul li a span{
+    color: #222222;
+}
+
+.nav ul li a span.icon{
+    font-size: 30px;
+    transition: 0.5s;
+    height: 100%;
+}
+
+.nav ul li a span.icon i{
+    height: 30px;
+}
+.nav ul li a .icon i{
+    transition: 0.5s;
+}
+
+.nav ul li a:hover .icon i{
+    transform: translateX(25px);
+}
+
+.nav ul li a:hover .name{
+    opacity: 1;
+} 
+
+.nav ul li a{
+    display: flex;
+}
+
+
+.nav{
+    margin-left: 20px;
+    /* background-color: chartreuse; */
+    width: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li a span.name{
+    opacity: 1;
+    font-size: 12px;
+    transition: 1.5s;
+}
+
